@@ -8,7 +8,7 @@ public partial class GameManager : Node
 
     public float HighScore = 2.0f; //{ get; set; }
 
-    private const string SavePath = "user://highscore.save";
+    private string SavePath = OS.GetExecutablePath().GetBaseDir().PathJoin("highscore.save");
 
     public override void _Ready()
     {

@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bn7eea4v1c1ro"]
+[gd_scene load_steps=3 format=3 uid="uid://bn7eea4v1c1ro"]
 
 [ext_resource type="Script" uid="uid://bc3iarjo0r4ry" path="res://GameManager.cs" id="1_0f027"]
+[ext_resource type="Script" uid="uid://cmnvysaahet7a" path="res://LevelManger.cs" id="2_2c62f"]
 
 [node name="MainScene" type="Node3D"]
 
@@ -8,3 +9,10 @@
 script = ExtResource("1_0f027")
 
 [node name="LevelManger" type="Node" parent="."]
+script = ExtResource("2_2c62f")
+
+[node name="CurrentLevelContainer" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
