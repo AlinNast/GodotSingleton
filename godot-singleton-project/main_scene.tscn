@@ -1,18 +1,25 @@
-[gd_scene load_steps=3 format=3 uid="uid://bn7eea4v1c1ro"]
+[gd_scene load_steps=6 format=3 uid="uid://bn7eea4v1c1ro"]
 
 [ext_resource type="Script" uid="uid://bc3iarjo0r4ry" path="res://GameManager.cs" id="1_0f027"]
-[ext_resource type="Script" uid="uid://cmnvysaahet7a" path="res://LevelManger.cs" id="2_2c62f"]
+[ext_resource type="Script" uid="uid://cmnvysaahet7a" path="res://LevelManager.cs" id="2_2c62f"]
+[ext_resource type="PackedScene" uid="uid://cq23ilh2qguad" path="res://menu.tscn" id="3_gyfs4"]
+[ext_resource type="PackedScene" uid="uid://c0kw7gbnnkd4j" path="res://play_scene.tscn" id="4_d5x1h"]
+[ext_resource type="PackedScene" uid="uid://psxdyfwp4jun" path="res://options.tscn" id="5_8mm7a"]
 
 [node name="MainScene" type="Node3D"]
 
 [node name="GameManager" type="Node" parent="."]
 script = ExtResource("1_0f027")
 
-[node name="LevelManger" type="Node" parent="."]
+[node name="LevelManager" type="Node" parent="." node_paths=PackedStringArray("LevelContainer")]
 script = ExtResource("2_2c62f")
+Levels = Array[PackedScene]([ExtResource("3_gyfs4"), ExtResource("4_d5x1h"), ExtResource("5_8mm7a")])
+LevelContainer = NodePath("../CurrentLevelContainer")
 
 [node name="CurrentLevelContainer" type="Control" parent="."]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

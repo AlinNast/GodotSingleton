@@ -1,0 +1,71 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0kw7gbnnkd4j"]
+
+[ext_resource type="Script" uid="uid://bers43i1vem6p" path="res://PlayScene.cs" id="1_memhf"]
+
+[sub_resource type="Gradient" id="Gradient_gl7u2"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.12888889, 0.8622222)
+colors = PackedColorArray(0.08591821, 0.17530227, 0.12104676, 1, 0.7338582, 0.25520617, 6.738305e-07, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_memhf"]
+gradient = SubResource("Gradient_gl7u2")
+fill_from = Vector2(0.71028036, 0.81931466)
+fill_to = Vector2(0.97196263, 0.88785046)
+
+[node name="PlayScene" type="Control" node_paths=PackedStringArray("Timer", "TryAgainButton")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_memhf")
+Timer = NodePath("VBoxContainer/Label")
+TryAgainButton = NodePath("VBoxContainer/TryAgainButton")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="VBoxContainer"]
+z_index = -1
+position = Vector2(598, 335)
+scale = Vector2(19.484375, 11.390625)
+texture = SubResource("GradientTexture2D_memhf")
+
+[node name="PressTest" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_stretch_ratio = 6.44
+text = "Press when timer reaches ZERO
+"
+icon_alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TryAgainButton" type="Button" parent="VBoxContainer"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Start Again?
+"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Main Menu"
+
+[connection signal="pressed" from="VBoxContainer/PressTest" to="." method="OnPlayTestPressed"]
+[connection signal="pressed" from="VBoxContainer/TryAgainButton" to="." method="OnTryAgainPressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="OnMainMenuButtonPressed"]

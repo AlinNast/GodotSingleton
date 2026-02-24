@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|c:\\users\\nasali-5-local\\school\\1.6 gamefeel\\assignement4\\godotsingleton\\godot-singleton-project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|c:\\users\\nasali-5-local\\school\\1.6 gamefeel\\assignement4\\godotsingleton\\godot-singleton-project\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|c:\\users\\nasali-5-local\\school\\1.6 gamefeel\\assignement4\\godotsingleton\\godot-singleton-project\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|solutionrelative:levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:38:11.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameManager.cs",
+              "ToolTip": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\GameManager.cs",
+              "RelativeToolTip": "GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:36:56.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\LevelManager.cs",
+              "RelativeDocumentMoniker": "LevelManager.cs",
+              "ToolTip": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\LevelManager.cs",
+              "RelativeToolTip": "LevelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:32:59.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

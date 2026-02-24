@@ -6,9 +6,9 @@ public partial class GameManager : Node
     // The static reference to the one and only instance
     public static GameManager Instance { get; private set; }
 
-    public float HighScore = 2.0f; //{ get; set; }
+    public static float HighScore; //{ get; set; }
 
-    private string SavePath = OS.GetExecutablePath().GetBaseDir().PathJoin("highscore.save");
+    private string SavePath = OS.GetExecutablePath().GetBaseDir().PathJoin("highscoree.save");
 
     public override void _Ready()
     {
@@ -16,18 +16,18 @@ public partial class GameManager : Node
         if (Instance == null)
         {
             Instance = this;
-            
             LoadHighScore();
         }
     }
 
     public void SaveHighScore(float newScore)
     {
-        if (newScore > HighScore)
+        if (newScore < HighScore || HighScore == 0)
         {
             HighScore = newScore;
             using var file = FileAccess.Open(SavePath, FileAccess.ModeFlags.Write);
-            file.Store32((uint)HighScore);
+            file.StoreFloat(HighScore);
+            GD.Print(file);
         }
     }
 
@@ -36,10 +36,18 @@ public partial class GameManager : Node
         if (FileAccess.FileExists(SavePath))
         {
             using var file = FileAccess.Open(SavePath, FileAccess.ModeFlags.Read);
-            HighScore = (float)file.Get32();
+            HighScore = file.GetFloat();
         }
-        GD.Print("Loaded High Score: " + HighScore);
+        
     }
+
+    public void ClearHighScore()
+    {
+        HighScore = 0;
+        using var file = FileAccess.Open(SavePath, FileAccess.ModeFlags.Write);
+        file.StoreFloat(0);
+    }
+
 
     public void QuitGame()
     {
