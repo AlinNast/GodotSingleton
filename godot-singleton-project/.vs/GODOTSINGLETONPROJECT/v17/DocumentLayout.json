@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|c:\\users\\nasali-5-local\\school\\1.6 gamefeel\\assignement4\\godotsingleton\\godot-singleton-project\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\Options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|c:\\users\\nasali-5-local\\school\\1.6 gamefeel\\assignement4\\godotsingleton\\godot-singleton-project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|c:\\users\\nasali-5-local\\school\\1.6 gamefeel\\assignement4\\godotsingleton\\godot-singleton-project\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\PlayScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlayScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05204587-B87D-484A-BB19-4B82A5669A8B}|GodotSingletonProject.csproj|c:\\users\\nasali-5-local\\school\\1.6 gamefeel\\assignement4\\godotsingleton\\godot-singleton-project\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +42,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Options.cs",
+              "DocumentMoniker": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\Options.cs",
+              "RelativeDocumentMoniker": "Options.cs",
+              "ToolTip": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\Options.cs",
+              "RelativeToolTip": "Options.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:48:46.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayScene.cs",
+              "DocumentMoniker": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\PlayScene.cs",
+              "RelativeDocumentMoniker": "PlayScene.cs",
+              "ToolTip": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\PlayScene.cs",
+              "RelativeToolTip": "PlayScene.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:00:53.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
               "ToolTip": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\Menu.cs",
               "RelativeToolTip": "Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T08:38:11.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\GameManager.cs",
               "RelativeDocumentMoniker": "GameManager.cs",
               "ToolTip": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\GameManager.cs",
               "RelativeToolTip": "GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwC0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T08:36:56.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\LevelManager.cs",
               "RelativeDocumentMoniker": "LevelManager.cs",
               "ToolTip": "C:\\Users\\nasali-5-local\\School\\1.6 GameFeel\\Assignement4\\GodotSingleton\\godot-singleton-project\\LevelManager.cs",
               "RelativeToolTip": "LevelManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T08:32:59.224Z",
               "EditorCaption": ""
